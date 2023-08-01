@@ -7,7 +7,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
-   color: var(--branco-pricipal);
+   color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -16,7 +16,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.principaç{
+.principal{
     background-image:url("./img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -33,10 +33,11 @@ padding: 1em;
 color: var(--branco-pricipal);
 display: block;
 text-decoration: none;
+margin-bottom: 1em;
 }
-.botao__secundario{
+.botao_secundario{
     background-color: transparent;
-    border: 2px solid var(--branco-pricipal);
+    border: 2px solid var(--branco-principal);
 }
 .container__aviso{
     font-size: 12px;
@@ -45,4 +46,11 @@ text-decoration: none;
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
 }
